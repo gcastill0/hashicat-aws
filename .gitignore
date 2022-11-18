@@ -1,0 +1,17 @@
+# Terraform state files #
+#########################
+*.tfstate
+*.tfstate.backup
+
+# Terraform provider files #
+###########################
+.terraform
+.terraform.lock.hcl
+
+# Anything with SSH #
+#####################
+.ssh
+
+# The escape hatch exercises #
+##############################
+exercises
